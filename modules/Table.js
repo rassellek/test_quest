@@ -1,11 +1,8 @@
 import {
-  Button,
   Col,
   Descriptions,
-  Dropdown,
   Grid,
   Image,
-  Menu,
   message,
   Pagination,
   Popover,
@@ -15,10 +12,9 @@ import {
   Tooltip,
   Typography,
 } from "antd";
-import React, { useEffect, useState, useCallback, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import {
-  DownloadOutlined,
   EyeOutlined,
   HeartOutlined,
   HeartTwoTone,
@@ -27,7 +23,6 @@ import {
 import getColumnSearchProps from "./columnSearcInput";
 // import ModalDownload from "@/cabinet/ui/VirtualTable/ModalDownload";
 import axiosAPI from "axios";
-import ReactDragListView from "react-drag-listview";
 
 
 const { Text, Link } = Typography;

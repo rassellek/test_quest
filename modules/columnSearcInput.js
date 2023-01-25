@@ -1,8 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { Button, Input, Space, Tooltip } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
-import Highlighter from "react-highlight-words";
-import axios from "axios";
 
 export default function getColumnSearchProps (type, setUrl, bUrl, name, dataIndex, setFilters) {
     const [selectText, setSelectText] = useState("");

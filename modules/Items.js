@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // import Table from "@/cabinet/ui/VirtualTable/Table";
 // import getImageUrl from "@/cabinet/helper/getImageUrl";
 // import {
@@ -9,7 +9,7 @@ import React, { useState } from "react";
 
 import Table from "./Table";
 import ReactDragListView from "react-drag-listview";
-import styles from "../../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 
 function formatting(response) {
   return response.data.data.map((item) => ({
