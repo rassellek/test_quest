@@ -1,9 +1,13 @@
 {
+  "name": "test_quest",
+  "homepage": "https://rassellek.github.io/test_quest",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -19,5 +23,8 @@
     "react-dom": "18.2.0",
     "react-drag-listview": "^2.0.0",
     "react-highlight-words": "^0.20.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
