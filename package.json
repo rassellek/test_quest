@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.6",
+    "antd": "^5.1.6",
+    "axios": "^1.2.4",
+    "immutability-helper": "^3.1.1",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "18.2.0",
+    "react-drag-listview": "^2.0.0",
+    "react-highlight-words": "^0.20.0"
+  }
+}
